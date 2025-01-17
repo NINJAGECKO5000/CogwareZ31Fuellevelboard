@@ -40,7 +40,7 @@ void loop() {
 
   subRange = map(flevel, 490, 325, 0, 5);
 
-  digitalWrite(mosfetPin, flevel > 380);
+  digitalWrite(mosfetPin, flevel > 330);
 
   cntrl(level);
   subcntrl(subRange);
